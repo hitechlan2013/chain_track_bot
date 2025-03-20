@@ -3,6 +3,8 @@ import axios from "axios";
 import dotenv from "dotenv";
 dotenv.config();
 
+
+//bot token
 const TELEGRAM_BOT_TOKEN = process.env.TELEGRAM_BOT_TOKEN!;
 if (!TELEGRAM_BOT_TOKEN) {
   console.error("❌ TELEGRAM_BOT_TOKEN not found in environment variables");
